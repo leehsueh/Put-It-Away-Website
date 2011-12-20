@@ -286,7 +286,7 @@ aside{
 	        box-shadow:0 0px 40px -10px #AAA;
 }
 
-#main p{
+#main p, ul{
 	font:16px/26px Helvetica, Helvetica Neue, Arial;
 	width:620px;
 }
