@@ -203,7 +203,22 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 img { max-width: 100%; margin: 0.5em;}
 aside span#requirements { font-style:italic; }
+#tagline { 
+  clear: left;
+  margin:0;
+  font-style:italic;
+  color:#333;
+}
 
+#footer-container footer p{
+  font:16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+#footer-container footer p#copyright{
+  margin-top:3em;
+  text-align:center;
+  font-style:italic;
+}
 
 /* ==================
    Initializr Theme
@@ -221,8 +236,8 @@ body{
 
 #header-container{
 	background-color:#f16529;
-	height:130px;
-	border-bottom:20px solid #e44d26;
+/*	height:130px;
+*/	border-bottom:20px solid #e44d26;
 	margin-bottom:50px;
 	-webkit-box-shadow:0 40px 40px -40px #AAA;
 	   -moz-box-shadow:0 40px 40px -40px #AAA;
@@ -236,6 +251,7 @@ h3{font-size: 30px;}
 
 #title{
 	font-size: 60px;
+  margin-bottom:0;
 	color:white;
 	float:left;
 }
@@ -260,7 +276,7 @@ aside{
 	color:white;
 	padding:20px;
 	float:right;
-	height:500px;
+	height:300px;
 	width:200px;
 	background-color:#f16529;
 	border-bottom:20px solid #e44d26;
