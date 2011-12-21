@@ -13,6 +13,7 @@
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
+	<link rel="stylesheet" href="css/slimbox2_css/slimbox2.css">
 	<link rel="stylesheet" href="css/style.css">
 
 	<script src="js/libs/modernizr-2.0.min.js"></script>
@@ -21,7 +22,8 @@
 	<div id="header-container">
 		<header class="wrapper">
 			<h1 id="title">Put It Away</h1>
-			<h3 id="tagline">Helping Kids Learn How to Clean</h3>
+			<img src="images/ui/banner.png" id="banner" alt="Put It Away for iPad" />
+			<h3 id="tagline">An iPad app that shows how to tidy up a room</h3>
 		</header>
 	</div>
 	<div id="main" class="wrapper">
@@ -30,6 +32,12 @@
             <a href="#"><img src="images/ui/appstore.png" title="Coming soon!" /></a>
             <br>
             <span id="requirements">* iPad/iPad 2 running iOS 5 is required</span>
+		</aside>
+		<aside>
+			<h3>Screenshots</h3>
+            <a href="images/screenshots/home_play.png" rel="lightbox-screenshots" title="List of scenes"><img src="images/screenshots/home_play.png" /></a>
+            <a href="images/screenshots/play_locate_item.png" rel="lightbox-screenshots" title="Tap an item in the list to locate it in the scene."><img src="images/screenshots/play_locate_item.png" /></a>
+            <a href="images/screenshots/edit_scene_item.png" rel="lightbox-screenshots" title="Configuring the location and placement of an item within a scene."><img src="images/screenshots/edit_scene_item.png"/></a>
 		</aside>
 		<article>
 			<header>
@@ -41,15 +49,13 @@
                     <ul>
                     <li>A list of items that need to be "put away" is displayed on the left</li>
                     <li>The scene with items is shown on the right</li>
-                    <li>Tapping on an item in the list indicates where it is located in the scene on the right</li>
                     <li>Each item can be dragged around the scene and needs to be placed where it belongs</li>
-                    <li>Long-pressing or double-tapping an item briefly shows a hint and indicates where it belongs</li>
                     <li>As items are "put away," they get checked off on the list displayed on the left</li>
                     </ul>
                 </p>
         
 			<h3>Parents/Teachers Customize the Configuration</h3>
-				<p>The app comes with a few pre-loaded scenes, but what makes it potentially more useful is customization. In any given scene:
+				<p>The app comes with a few pre-loaded scenes, but what makes it more useful is customization. In any given scene:
                     <ul>
                     <li>Items can be added (from an existing list, from the photo library, or using the camera), or removed</li>
                     <li>The exact placement of an item is determined by moving it to a desired location (e.g. where it is normally misplaced or left out)</li>
@@ -57,7 +63,8 @@
                     <li>An on/off switch determines whether an item should disappear when "put away," representing whether the item goes "inside" or is simply placed (e.g. garbage disappears inside of a garbage can, but a towel does not disappear when hung on a rack)</li>
                     </ul>
                 </p>
-                <p>New scenes can be created by taking a photo with the camera, or using an existing photo stored on the device's photo library, enabling users to customize the app to simulate a real living space and personal household rules! Individual items can also be edited to provide useful hints in "Play" mode.</p>
+                <p>New scenes can be created by taking a photo with the camera, or using an existing photo stored on the device's photo library. Individual items can also be edited to provide useful hints in "Play" mode.</p>
+                <p><strong>Customization enables users to simulate their real living space and personal household rules!</strong></p>
 		</article>
 	</div>
 	<div id="footer-container">
@@ -71,6 +78,7 @@
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
 <script src="js/script.js"></script>
+<script src="js/libs/slimbox2.js"></script>
 <script>
 	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
 	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;

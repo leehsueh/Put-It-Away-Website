@@ -202,13 +202,26 @@ table { border-collapse: collapse; border-spacing: 0; }
    ========================================================================== */
 
 img { max-width: 100%; margin: 0.5em;}
-aside span#requirements { font-style:italic; }
+
+img#banner {
+  float:right;
+  width:450px;
+}
 #tagline { 
   clear: left;
   margin:0;
-  font-style:italic;
   color:#333;
+  font-size:24px;
 }
+aside {
+  margin-right:10px;
+  margin-top:30px;
+  clear:right;
+  -webkit-border-radius:8px;
+     -moz-border-radius:8px;
+  border-radius:8px;
+}
+aside span#requirements { font-style:italic; }
 
 #footer-container footer p{
   font:16px/26px Helvetica, Helvetica Neue, Arial;
@@ -276,11 +289,10 @@ aside{
 	color:white;
 	padding:20px;
 	float:right;
-	height:300px;
-	width:200px;
+/*	height:300px;
+*/	width:200px;
 	background-color:#f16529;
 	border-bottom:20px solid #e44d26;
-	margin-bottom:50px;
 	-webkit-box-shadow:0 0px 40px -10px #AAA;
 	   -moz-box-shadow:0 0px 40px -10px #AAA;
 	        box-shadow:0 0px 40px -10px #AAA;
