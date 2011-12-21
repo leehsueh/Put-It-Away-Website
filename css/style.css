@@ -223,8 +223,8 @@ body{
 }
 
 #header-container{
-/*	height:130px;
-*/	border-bottom:20px solid #67180c; /*#e44d26;*/
+/*	height:130px;*/
+    border-bottom:20px solid #67180c; /*#e44d26;*/
 	margin-bottom:50px;
     background:url("../images/ui/fabric_topcrop.jpg");
     background-size:100%;
@@ -263,22 +263,6 @@ h3{font-size: 30px;}
   font-size:24px;
   font-family: 'Schoolbell', sans-serif;
   font-weight: regular;
-}
-
-header nav{
-	float:right;
-	margin-top:100px;
-}
-
-header nav ul li{
-	display:inline;
-}
-
-nav a{
-	padding:20px;
-	color:white;
-	text-decoration:none;
-	background-color:#e44d26;
 }
 
 aside{
