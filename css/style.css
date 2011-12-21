@@ -235,7 +235,7 @@ body{
 	        box-shadow:0 40px 40px -40px #000;
 }
 
-#main h2, #main h3{
+#main h2, #main h3, #footer-container h3{
     margin:30px 0;
     font-family: 'Schoolbell', sans-serif;
     text-shadow: 1px 1px 1px #968576;
@@ -302,14 +302,15 @@ aside{
 
 aside span#requirements { font-style:italic; }
 
-#main p, #main ul{
-	font:16px/26px Helvetica, Helvetica Neue, Arial;
+#main p, #main ul, #footer-container p {
+	font:18px/26px Helvetica, Helvetica Neue, Arial;
     font-family: 'Cantarell', sans-serif;
     font-style: regular;
     font-weight: regular;
-	width:620px;
 }
-
+#main p, #main ul {
+    width:620px;
+}
 article header{
 	margin-bottom:50px;
 	padding-bottom:30px;
@@ -334,15 +335,22 @@ article header{
 #footer-container footer{
 	color:#ececec;
 }
-
-#footer-container footer p{
-  font:16px/26px Helvetica, Helvetica Neue, Arial;
+#footer-container h3 {
+    color:#e5b7b8;
 }
-
+#footer-container a:link, #footer-container a:visited {
+    color:#e5b7b8;
+    text-decoration: none;   
+}
+#footer-container a:hover {
+    text-decoration: underline;   
+}
 #footer-container footer p#copyright{
   margin-top:3em;
   text-align:center;
-  font-style:italic;
+  font-size: 14px;
+  color:#49110a;
+  text-shadow: 1px 1px 1px #CCC;
 }
 
 
