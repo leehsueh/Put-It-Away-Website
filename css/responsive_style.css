@@ -86,12 +86,33 @@ body{
     ALL: Red Theme
    =================== */
 
+a {
+  cursor: pointer;
+}
+.modal-background {
+
+}
 #header-container{ border-bottom: 20px solid #67180c; }
 #footer-container{ border-top:    20px solid #67180c; }
 #main aside      { border-bottom:    20px solid #67180c; }
 
 #main aside {
     background-color: rgba(103,24,12,0.5);
+}
+#update-note {
+  display:none;
+  position: fixed;
+  top: 30%;
+  left: 35%;
+  margin:0 auto;
+  width: 300px;
+  border: 2px solid black;
+  background: rgba(255,245,160,1);
+  padding: 10px 20px;
+  z-index:10000;
+}
+#main #update-note p {
+  width:300px;
 }
 #header-container {
     background:url("../images/ui/fabric_topcrop.jpg");
