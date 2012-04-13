@@ -179,8 +179,11 @@ aside{
      -moz-border-radius:8px;
     border-radius:8px;
 }
+aside ul, aside a:link, aside a:visited {color:#44382E;}
+aside a:hover {color:#ececec;}
 #main aside h3 {margin:15px 0 15px 0;}
 aside span#requirements { font-style:italic; }
+#main aside ul {width:inherit;}
 
 #main p, #main ul, #footer-container p {
     font:18px/26px Helvetica, Helvetica Neue, Arial;
