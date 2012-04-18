@@ -3,19 +3,15 @@
 */
 
 $(document).ready(function() {
-	var bgOverlay = $('#lbOverlay');
-	var updateNote = $('#update-note');
-	bgOverlay.css('opacity','0');
-	bgOverlay.show().animate({
-		opacity:0.6,
-	}, 500, function() {
-		updateNote.fadeIn(200);
-	});
-	var closeLink = updateNote.find('a');
-	closeLink.click(function(event) {
-		event.preventDefault();
-		updateNote.fadeOut(200);
-		bgOverlay.fadeOut(200);
+	var mainContainer = $("#main");
+	var headerWrapper = $("#header-container .wrapper");
+
+	headerWrapper.delay(1000).animate({
+		opacity:1.0
+	}, function() {
+		mainContainer.delay(300).animate({
+			opacity:1.0
+		});
 	});
 });
 
